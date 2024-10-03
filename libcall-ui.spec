@@ -7,13 +7,13 @@
 Summary:	Common user interface parts for call handling
 Summary(pl.UTF-8):	Wspólne elementy interfejsu użytkownika do obsługi połączeń głosowych
 Name:		libcall-ui
-Version:	0.2.0
+Version:	0.2.1
 Release:	0.1
 License:	LGPL v2.1+
 Group:		Libraries
 #Source0Download: https://gitlab.gnome.org/World/Phosh/libcall-ui/-/releases
 Source0:	https://gitlab.gnome.org/World/Phosh/libcall-ui/-/archive/v%{version}/%{name}-v%{version}.tar.bz2
-# Source0-md5:	57111039be1bcc33a68c610e6e9c7dd6
+# Source0-md5:	a64e5285b5c9adc2bfbae6c13a4812a5
 URL:		https://gitlab.gnome.org/World/Phosh/libcall-ui
 %{?with_apidocs:BuildRequires:	gi-docgen >= 2021.1}
 BuildRequires:	glib2-devel >= 1:2.62
